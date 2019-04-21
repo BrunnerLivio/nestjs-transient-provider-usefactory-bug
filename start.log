@@ -1,0 +1,12 @@
+
+> on-inject-example@0.0.1 start /home/brunnerlivio/workspace/on-inject-example
+> ts-node -r tsconfig-paths/register src/main.ts
+
+[32m[Nest] 8288   - [39m04/22/2019, 1:31 AM   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+Called `NORMAL_PROVIDER`
+Called `TRANSIENT_PROVIDER`
+TEST provider has the value TRANSIENT_PROVIDER_VALUE - AService
+[32m[Nest] 8288   - [39m04/22/2019, 1:31 AM   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +10ms[39m
+NORMAL_PROVIDER provider has the value NORMAL_PROVIDER_VALUE - bootstrap
+TransientService.test() has the value TRANSIENT_SERVICE_VALUE - bootstrap
+TRANSIENT_PROVIDER provider has the value null - bootstrap
